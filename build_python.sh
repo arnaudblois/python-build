@@ -6,8 +6,10 @@ sudo apt-get update
 sudo apt-get dist-upgrade -y
 sudo apt-get install -y \
   build-essential \
+  libbz2-dev \
   libffi-dev \
   libgdbm-dev \
+  liblzma-dev \
   libncurses5-dev \
   libnss3-dev \
   libsqlite3-dev \
