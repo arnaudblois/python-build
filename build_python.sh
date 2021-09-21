@@ -18,8 +18,8 @@ sudo apt-get install -y \
   zlib1g-dev
 
 # Script building the required version of python
-read -p "Enter the version to build [3.9.2]: " version
-version=${version:-3.9.2}
+read -p "Enter the version to build [3.9.7]: " version
+version=${version:-3.9.7}
 echo "Building Python version ${version}"
 
 wget https://www.python.org/ftp/python/${version}/Python-${version}.tgz -O - | tar -xz
